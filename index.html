@@ -1069,7 +1069,16 @@
     $('.flexslider').flexslider({
       animation: "slide"
     });
-  });</script>
+  });
+  </script>
+
+  <script>
+   var loader = document.getElementById("preLoader");
+
+   window.addEventListener("load", function(){
+    loader.style.display= "none";
+});
+  </script>
 </body>
 
 </html>
