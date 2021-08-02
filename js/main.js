@@ -1,11 +1,4 @@
 
-// Pre-Loader
-var loader = document.getElementById("preLoader");
-
-window.addEventListener("load", function(){
-    loader.style.display= "none";
-});
-
 // Iphone-x-4
 gsap.to(".rocket1",{
     scrollTrigger: {
